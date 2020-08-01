@@ -7,7 +7,31 @@ $color-grey-dark: #777;
 $color-white: #fff;
 $color-black: #000;
 
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
 $color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$gradient-primary: linear-gradient(
+	to right bottom,
+	$color-secondary-light,
+	$color-secondary-dark
+);
+
+$gradient-secondary: linear-gradient(
+	to right bottom,
+	$color-primary-light,
+	$color-primary-dark
+);
+
+$gradient-tetriary: linear-gradient(
+	to right bottom,
+	$color-tertiary-light,
+	$color-tertiary-dark
+);
 
 // FONT
 $default-font-size: 1.6rem;
