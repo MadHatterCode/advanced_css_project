@@ -344,13 +344,12 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
-    z-index: 2; }
+    z-index: 2;
+    overflow: hidden; }
   .story__image {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
-    transition: all .5s;
-    overflow: hidden;
-    z-index: -1; }
+    transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
   .story__caption {

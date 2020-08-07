@@ -24,14 +24,13 @@
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
     z-index: 2;
+    overflow: hidden;
   }
 
   &__image {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
     transition: all .5s;
-    overflow: hidden;
-    z-index: -1;
   }
 
   &__text {
